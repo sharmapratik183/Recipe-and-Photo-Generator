@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: photogenerator
+  ai:
+    openai:
+      api-key: ${API_KEY}
+
+frontend:
+  url: ${FRONTEND_URL}
